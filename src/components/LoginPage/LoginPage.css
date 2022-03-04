@@ -1,0 +1,151 @@
+body {
+  background-color: #fff;
+}
+.login_main {
+  width: 350px;
+  margin-top: 100px;
+  margin-left: 40%;
+  text-align: center;
+  background-color: #fff;
+}
+
+.login_logo {
+  text-align: center;
+  font-family: Epilogue;
+  margin-top: 45px;
+  color: black;
+  font-weight: 600;
+  font-size: 50px;
+}
+.login_head span {
+  color: red;
+}
+.login_body {
+  margin-top: 50px;
+}
+
+.loginPage_text {
+  width: 350px;
+  height: 36px;
+  margin: 5px;
+  border: none;
+  border-bottom: 2px solid black;
+  padding-left: 10px;
+}
+.login_U {
+  display: inline-flex;
+
+  margin-top: 20px;
+  font-size: 11px;
+}
+.remember {
+  display: flex;
+  margin-left: -10px;
+  opacity: 0.5;
+}
+.forgot {
+  cursor: pointer;
+  margin-left: 130px;
+  color: red;
+}
+
+button {
+  background-color: #f3385a;
+  color: white;
+  margin-top: 10%;
+  height: 45px;
+  width: 180px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.loginSN {
+  display: flex;
+  margin-top: 25px;
+  margin-left: -10%;
+  width: 120%;
+}
+.loginSN p {
+  color: #bec4cb;
+}
+hr {
+  width: 120%;
+  height: 0px;
+  margin-top: 10px;
+  background-color: #bec4cb;
+}
+p {
+  width: 360px;
+  margin-bottom: 1px;
+}
+.img {
+  font-size: 100%;
+}
+.loginSN1 {
+  display: flex;
+  width: 130%;
+  margin-left: -8%;
+}
+.google {
+  background-color: #fff;
+  color: black;
+  border-style: solid;
+  display: flex;
+  border-radius: 9px;
+  width: 65%;
+  margin-right: 100px;
+  border: 1px solid #dfe3e7;
+}
+.google img {
+  margin-top: 1px;
+}
+.google span {
+  margin-top: 13px;
+}
+.facebook {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  display: flex;
+  border-radius: 9px;
+  width: 65%;
+  border: 1px solid #dfe3e7;
+}
+.facebook img {
+  margin-top: 13px;
+  margin-left: 6px;
+}
+.facebook span {
+  margin-top: 13px;
+  margin-left: 5px;
+}
+@media (max-width: 1050px) {
+  .login_main {
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 10%;
+    width: 59%;
+  }
+  .login_body {
+    margin-left: 50px;
+  }
+  .loginSN {
+    margin-left: 10px;
+  }
+  button {
+    margin-left: 60px;
+  }
+  .forgot {
+    width: 150px;
+  }
+  .loginSN1 {
+    display: block;
+    margin-left: 40px;
+  }
+  .facebook {
+    margin-top: 10px;
+  }
+  .loginPage_text {
+    width: 270px;
+  }
+}
